@@ -1,5 +1,21 @@
 @import "bootstrap";
 
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+  color: #F5431B;
+}
+
+body {
+  background: image_url('cbbackground.jpg');
+}
+
+.navbar {
+  background: image_url('spiration-light.png');
+  box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -8,7 +24,10 @@
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   text-align: center;
-  padding-top: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 20px;
+  opacity: .5;
 }
 
 .pagetitle {
@@ -17,4 +36,11 @@
 
 .infotitle {
   text-align: center;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #E3E85A;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.3px;
 }
