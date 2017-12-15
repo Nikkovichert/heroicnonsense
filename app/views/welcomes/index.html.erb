@@ -1,2 +1,14 @@
 <h1>Such Heroic Nonsense</h1>
 <h2>Coming soon...</h2>
+
+<hr />
+
+<% @welcomes.each do |welcome| %>
+  <div>
+    <h5><%= welcome.title %></h5><br />
+    <p><%= welcome.message %></p><br />
+    
+  </div>
+
+  <hr />
+<% end %>
