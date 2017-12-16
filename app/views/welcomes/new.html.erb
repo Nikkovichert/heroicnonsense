@@ -1,0 +1,11 @@
+<div class="booyah-box col-10 offset-1">
+<h1>Enter your welcome page comment details</h1>
+<%= simple_form_for @welcomes do |f| %>
+    <%= f.input :title %>
+    <%= f.input :message %>
+    <br />
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
+
